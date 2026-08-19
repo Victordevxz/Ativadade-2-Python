@@ -11,4 +11,3 @@ dias_De_conta = 30
 
 conta_segura = (tam_senha >= 8) and (caracter_especial) and (eh_admin) and (dias_De_conta >= 30)
 print(conta_segura)
-print

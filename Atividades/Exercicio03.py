@@ -5,4 +5,3 @@ esta_chovendo = False
 temperatura = 22
 pode_passear = not  esta_chovendo and (temperatura > 20)
 print(pode_passear)
-print
