@@ -9,3 +9,4 @@ e_estudante = True
 tem_dividas = True
 insencao_aprovada = ( renda <= 2000 and  e_estudante) and (not tem_dividas)
 print(insencao_aprovada)
+print

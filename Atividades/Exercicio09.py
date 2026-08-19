@@ -13,5 +13,7 @@ idade = int(input("Digie sua idade"))
 valor_do_emprestimo = float(input("valor que voce necessita : "))
 parcelas = int(input("Digite o valor das parcelas : "))
 
-porcentagem_da_renda = valor_do_emprestimo (30 / 100)
-calculo = (( renda => 5000 ) and ( score => 700 )) and  ( idade > 21 and idade < 65 ) and 
+porcentagem_da_renda = renda * (30 / 100)
+prestacao_mensal = valor_do_emprestimo / parcelas
+calculo = (( renda >= 5000 ) or ( score >= 700 )) and  ( idade >= 21 and idade <= 65 ) and (prestacao_mensal <= porcentagem_da_renda )
+print(calculo)
